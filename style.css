@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.banner{
+  background-image: url("https://source.unsplash.com/random/700x500");
+  background-size: cover;
+  color: white;
+  padding: 120px 0;
+}
+
+.container{
+  margin:0 auto;
+  width:700px;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
